@@ -1,0 +1,351 @@
+	/*BU OBWIY*/
+* {
+	margin: 0;
+}
+	/*Шапка Сайта*/
+header {
+	height: 5em;
+	width: 100%;
+	background: linear-gradient(#4D69A2,#3B5998);
+	border-left: 1px solid #133783;
+	border-right: 1px solid #133783;
+	border-bottom: 1px solid #133783;
+}
+	/*Shapkadagi obwiy*/
+.all {
+	width: 984px;
+	height: inherit;
+	margin: 0 auto;
+}
+	/*facebook sarlavhasi*/
+.zagolovok > span {
+	font-size: 41px;
+	font-weight: bolder;
+	color: white;
+	font-family: /*Trebuchet MS, */Arial/* Black*/, sans-serif;
+	position: relative;
+	top: 25px;
+}
+	/*facebook Ssilkasi*/
+.zagolovok > span > a {
+	text-decoration: none;
+	color: inherit;
+}
+	/*Vxod bo'limi*/
+header form {
+	display: inline;	
+	float: right;
+	position: relative;
+	bottom: 40px;
+}
+
+.formvxoda > form > label {
+	position: relative;
+	bottom: 4px;
+}
+	
+#text {
+	/*margin-right: 100px;*/      /*xato bo'lishi mumkin*/
+}
+
+.formvxoda {
+	height: inherit;
+	width: 800px;
+	float: right;
+	position: relative;
+	top: 8px;
+}
+
+.formvxoda label {
+	color: white;
+	font-family: arial;
+	font-size: 12px;
+}
+
+header form {
+	padding-right: 20px;
+}
+
+#textvxoda {
+	height: 20px;
+	width: 145px;
+	margin-right: 11px;
+	border: 1px solid #1d2a5b;
+}
+#passwordvxoda {
+	height: 20px;
+	width: 142px;
+	border: 1px solid #1d2a5b;
+    margin-right: 10px;
+}
+
+#submitvxoda {
+	height: 25px;
+	width: 42px;
+	margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+	color: white;
+	border: 1px solid #133783;
+    background-color: #496BBB;
+    border-color: #29487d;
+    border-radius: 2px;
+	font-weight: bold;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	cursor: pointer;
+	float: right;
+}
+
+.formvxoda {
+	margin-right: -16px;
+}
+
+#submitvxoda:hover {
+	background: #004d80;
+}
+
+#forgetkey {
+	color: #9CB4D8;
+	font-family: arial;
+	font-size: 12.4px;
+	margin-left: 163px;
+	position: relative;
+	top: 2px;
+}
+	/*Ana Menyuga Xam Yetib kelli*/ 
+.allmain {
+	width: 977px;
+	height: inherit/*600px*/;
+	margin: 0 auto;
+}
+	/*Bu xamma menyu*/
+main {
+	height: 20%;
+	width: 100%;
+	background: linear-gradient(white, #D3D8E8);
+}
+
+.imagereklama {
+	float: left;
+	position: relative;
+	top: -46px;
+	left: -20px;
+	padding-top: 20px;
+}
+
+.image {
+	height: inherit;
+	width: 550px;
+	background: linear-gradient(white, #D3D8E8);
+}
+	/*Reg. Asosiy joy*/
+.registration {
+	width: 41%;
+	height: inherit/*579px*/;
+	position: relative;
+	bottom: 1.4em;
+	background: linear-gradient(white, #D3D8E8);
+	display: inline-block;
+	right: -10px;
+}
+
+.registration h1, h3 {
+	font-family: Trebuchet MS arial;
+	color: #333333;
+}
+
+.registration h3 {
+	font-weight: normal;
+	margin-top: 8px;
+}
+
+.regzagalovok {
+	font-family: Arial !important;
+	color: #333333 !important;
+}
+
+.regtema {
+	font-family: Arial !important;
+	color: #333333 !important;
+	margin-top: 8px !important;	
+}
+
+.name {
+	height: 35px;
+	width: 186px;
+	padding-left: 7px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-right: 7px;
+	float: left;
+}
+.surname {
+	height: 35px;
+	width: 188px;
+	padding-left: 7px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	font-size: 18px;
+	float: right;
+}
+.telephone {
+	height: 35px;
+	width: 392px;
+	padding-left: 7px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.password {
+	height: 35px;
+	width: 392px;
+	padding-left: 7px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+#formspan {
+	font-size: 18px;
+	font-family: arial;
+	font-weight: normal;
+	color: #1d2129;
+	position: relative;
+	bottom: -7px;
+}
+
+.dateindicate a {
+	position: relative;
+	top: 6px;
+	font-size: 11px;
+	font-family: arial, sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: #365899;
+}
+	/*tug'ilgan kun*/
+.selectday {
+	height: 31px;
+	width: 70px;
+	margin-right: -4px;
+	border: 1.3px solid #BDC7D8;
+}
+	/*tug'ilgan oy*/
+.selectmonth {
+	height: 31px;
+	width: 70px;
+	margin-right: -4px;
+	border: 1.3px solid #BDC7D8;
+}
+	/*tug'ilgan yil*/
+.selectyear {
+	height: 31px;
+	width: 70px;
+	border: 1.3px solid #BDC7D8;
+}
+
+.radio {
+	position: relative;
+	top: 18px;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.regulationsreg {
+	position: relative;
+	top: 28px;
+	font-size: 11px;
+	font-family: arial;
+	color: #777777;
+}
+
+.regulationsreg a {
+	text-decoration: none;
+}
+
+#buttonsubmit {
+	position: relative;
+	top: 23px;
+	height: 35px;
+	width: 200px;
+	background: #69a74e linear-gradient(#67ae55, #578843);
+	border: 1px solid #3B6E22;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: arial;
+	box-shadow: inset 0 1px 1px #a4e388;
+	/*-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);*/
+}
+
+#newpage {
+	color: #666666;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	float: left;
+	position: relative;
+	padding: -20px;
+}
+
+#newpage a {
+	color: #365899;
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+footer {
+	width: 100%;
+	height: 120px;
+	padding-bottom: 40px;
+}
+
+.allfooter {
+	height: inherit;
+	width: 977px;
+	/*background: grey;*/
+	/*border: 1px solid grey;*/
+	margin: 0 auto;
+}
+
+.languages {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #365899;
+	padding: 5px;
+}
+
+#russian {
+	color: #737373;
+}
+
+#empty {
+	height: 8px;
+	border-bottom: 1px solid #dddfe2;
+}
+
+.pages {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #365899;
+	margin-left: 2px;
+	margin-top: 8px;
+}
+
+.overspan {
+	color: #737373;
+	font-family: arial;
+	font-size: 12px;
+	padding-top: 30px;
+	padding-left: 5px;
+}
